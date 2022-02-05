@@ -1,6 +1,6 @@
-﻿using System.Linq.Expressions;
+﻿using RentcarProj.DataAccess.Repositories;
 
-namespace RentcarProj.DataAccess.Repositories;
+namespace RentcarProj.DataAccess.Extensions;
 
 public static class RepositoryExtensions
 {
