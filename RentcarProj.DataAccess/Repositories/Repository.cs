@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using RentcarProj.DataAccess.DbContexts;
 
 namespace RentcarProj.DataAccess.Repositories;
@@ -37,6 +38,6 @@ public class Repository<T>:IRepository<T> where T:class
 
     public async Task<IQueryable<T>> GetAllAsNoTracking(Expression<Func<T?, bool>> predicate)
     {
-        return _context.Table.Where(predicate);
+        return _context.Table.Where(predicate).AsNoTracking();
     }
 }
