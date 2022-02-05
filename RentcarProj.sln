@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.WebApi", "RentcarProj.WebApi\RentcarProj.WebApi.csproj", "{26091DD5-A8B0-4A2E-80AD-991DF423DF8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.Core", "RentcarProj.Core\RentcarProj.Core.csproj", "{0846C1B4-F671-4A54-BDE1-6F3196FCB287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.Application", "RentcarProj.Application\RentcarProj.Application.csproj", "{045986CA-8BCD-4F2F-8304-18275F4900E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.Tests", "RentcarProj.Tests\RentcarProj.Tests.csproj", "{A6C1D6A9-D45D-40AA-A918-3C3FCF4E141F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{26091DD5-A8B0-4A2E-80AD-991DF423DF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26091DD5-A8B0-4A2E-80AD-991DF423DF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26091DD5-A8B0-4A2E-80AD-991DF423DF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0846C1B4-F671-4A54-BDE1-6F3196FCB287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0846C1B4-F671-4A54-BDE1-6F3196FCB287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0846C1B4-F671-4A54-BDE1-6F3196FCB287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0846C1B4-F671-4A54-BDE1-6F3196FCB287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045986CA-8BCD-4F2F-8304-18275F4900E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045986CA-8BCD-4F2F-8304-18275F4900E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045986CA-8BCD-4F2F-8304-18275F4900E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045986CA-8BCD-4F2F-8304-18275F4900E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C1D6A9-D45D-40AA-A918-3C3FCF4E141F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C1D6A9-D45D-40AA-A918-3C3FCF4E141F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C1D6A9-D45D-40AA-A918-3C3FCF4E141F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C1D6A9-D45D-40AA-A918-3C3FCF4E141F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
