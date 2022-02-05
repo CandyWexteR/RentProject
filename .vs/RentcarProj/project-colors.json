@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a6c1d6a9-d45d-40aa-a918-3c3fcf4e141f": {
+      "ProjectGuid": "a6c1d6a9-d45d-40aa-a918-3c3fcf4e141f",
+      "DisplayName": "RentcarProj.Tests",
+      "ColorIndex": 0
+    },
+    "045986ca-8bcd-4f2f-8304-18275f4900e7": {
+      "ProjectGuid": "045986ca-8bcd-4f2f-8304-18275f4900e7",
+      "DisplayName": "RentcarProj.Application",
+      "ColorIndex": 1
+    },
+    "0846c1b4-f671-4a54-bde1-6f3196fcb287": {
+      "ProjectGuid": "0846c1b4-f671-4a54-bde1-6f3196fcb287",
+      "DisplayName": "RentcarProj.Core",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
