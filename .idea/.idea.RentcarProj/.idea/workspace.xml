@@ -5,19 +5,39 @@
     <projectFile profileName="IIS Express">RentcarProj/RentcarProj.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Создан проект">
+    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Запрос страницы теперь не отслеживается">
+      <change afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/RepositoryExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/Repository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/Entities" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/RentcarProj.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/shoot/RiderProjects/RentcarProj/RentcarProj.DataAccess/Repositories/Repository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/shoot/RiderProjects/RentcarProj/RentcarProj.DataAccess/Repositories/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RentcarProj.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RentcarProj.Core/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/shoot/RiderProjects/RentcarProj/RentcarProj.DataAccess/Repositories/Repository.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24gwbJj7CSz4e7MAzyOqcIJsjEd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644065609748</updated>
-      <workItem from="1644065617278" duration="441000" />
+      <workItem from="1644065617278" duration="4269000" />
     </task>
     <task id="LOCAL-00001" summary="Создан проект">
       <created>1644065662558</created>
@@ -77,7 +97,42 @@
       <option name="project" value="LOCAL" />
       <updated>1644065662558</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлена информация о среде разработки">
+      <created>1644066082575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644066082575</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Созданы новые проекты">
+      <created>1644066158826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644066158826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Создан контекст базы данных">
+      <created>1644069011621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644069011621</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Создан шаблонный репозиторий">
+      <created>1644069031469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644069031469</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Запрос страницы теперь не отслеживается">
+      <created>1644069119033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644069119033</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +158,12 @@
                   </entry>
                 </map>
               </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
             </State>
           </value>
         </entry>
@@ -112,6 +173,11 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Создан проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан проект" />
+    <MESSAGE value="Добавлена информация о среде разработки" />
+    <MESSAGE value="Созданы новые проекты" />
+    <MESSAGE value="Создан контекст базы данных" />
+    <MESSAGE value="Создан шаблонный репозиторий" />
+    <MESSAGE value="Запрос страницы теперь не отслеживается" />
+    <option name="LAST_COMMIT_MESSAGE" value="Запрос страницы теперь не отслеживается" />
   </component>
 </project>
