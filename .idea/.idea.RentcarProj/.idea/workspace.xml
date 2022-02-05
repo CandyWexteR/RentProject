@@ -5,14 +5,11 @@
     <projectFile profileName="IIS Express">RentcarProj/RentcarProj.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/DbContexts/DbContextBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/RentcarProj.DataAccess.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/Repository.cs" afterDir="false" />
+    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Запрос страницы теперь не отслеживается">
       <change afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/RepositoryExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentcarProj.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.DataAccess/Repositories/Repository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/RentcarProj.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/shoot/RiderProjects/RentcarProj/RentcarProj.DataAccess/Repositories/Repository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/shoot/RiderProjects/RentcarProj/RentcarProj.DataAccess/Repositories/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RentcarProj.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RentcarProj.Core/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/shoot/RiderProjects/RentcarProj/RentcarProj.DataAccess/Repositories/Repository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644065609748</updated>
-      <workItem from="1644065617278" duration="3305000" />
+      <workItem from="1644065617278" duration="4269000" />
     </task>
     <task id="LOCAL-00001" summary="Создан проект">
       <created>1644065662558</created>
@@ -111,7 +111,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644066158826</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Создан контекст базы данных">
+      <created>1644069011621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644069011621</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Создан шаблонный репозиторий">
+      <created>1644069031469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644069031469</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Запрос страницы теперь не отслеживается">
+      <created>1644069119033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644069119033</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +175,9 @@
     <MESSAGE value="Создан проект" />
     <MESSAGE value="Добавлена информация о среде разработки" />
     <MESSAGE value="Созданы новые проекты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Созданы новые проекты" />
+    <MESSAGE value="Создан контекст базы данных" />
+    <MESSAGE value="Создан шаблонный репозиторий" />
+    <MESSAGE value="Запрос страницы теперь не отслеживается" />
+    <option name="LAST_COMMIT_MESSAGE" value="Запрос страницы теперь не отслеживается" />
   </component>
 </project>
