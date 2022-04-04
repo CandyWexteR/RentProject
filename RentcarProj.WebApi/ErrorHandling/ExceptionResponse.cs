@@ -4,7 +4,7 @@ namespace RentcarProj.ErrorHandling;
 
 public class ExceptionResponse
 {
-    public ExceptionResponse(string message, int statusCode)
+    protected ExceptionResponse(string message, int statusCode)
     {
         Message = message;
         StatusCode = statusCode;
