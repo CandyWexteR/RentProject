@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RentcarProj.BuildingBlocks;
 
 namespace RentcarProj.Core
 {
-    public class EventBase
-    
+    /// <summary>
+    /// Базовое событие.
+    /// </summary>
+    public class EventBase:Aggregate
+           
     {
-        protected EventBase(Guid id, DateTime timeStamp)
+        protected EventBase(Guid id, DateTime timeStamp):base(id)
         {
-            Id = id;
             TimeStamp = timeStamp;
 
         }
-        public Guid Id { get; set; }
         public DateTime TimeStamp { get; set; }
     }
 

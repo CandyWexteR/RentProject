@@ -12,8 +12,14 @@ namespace RentcarProj.Core
         {
         }
 
+        /// <summary>
+        /// Данные пользователя(паспорт).
+        /// </summary>
         public string UserData { get; set; }
+        /// <summary>
+        /// Идентификатор машины в базе.
+        /// </summary>
         public Guid CarId  { get; set; }
-
+        
     }
 }
