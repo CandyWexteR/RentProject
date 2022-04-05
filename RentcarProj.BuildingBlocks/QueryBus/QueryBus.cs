@@ -2,6 +2,7 @@
 
 namespace RentcarProj.BuildingBlocks.QueryBus;
 
+/// <inheritdoc/>
 public class QueryBus : IQueryBus
 {
     private readonly IMediator _mediator;
@@ -11,6 +12,7 @@ public class QueryBus : IQueryBus
         _mediator = mediator;
     }
 
+    /// <inheritdoc/>
     public async Task<TResponse> Send<TRequest, TResponse>(TRequest request)
         where TRequest : IQueryBase<TResponse>
         where TResponse : class
