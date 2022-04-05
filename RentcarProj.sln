@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.Tests", "Rentca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.DataAccess", "RentcarProj.DataAccess\RentcarProj.DataAccess.csproj", "{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.BuildingBlocks", "RentcarProj.BuildingBlocks\RentcarProj.BuildingBlocks.csproj", "{C8165955-810A-48A7-B313-871B5E18A834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8165955-810A-48A7-B313-871B5E18A834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8165955-810A-48A7-B313-871B5E18A834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8165955-810A-48A7-B313-871B5E18A834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8165955-810A-48A7-B313-871B5E18A834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
