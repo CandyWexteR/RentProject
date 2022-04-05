@@ -10,7 +10,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Удален неиспользуемый контроллер и класс. Добавлена обработка ошибок в одной форме." />
+    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/CommandBus/CommandBus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/CommandBus/ICommandBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/CommandBus/ICommandBus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/CommandBus/ICommandHandlerBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/IQueryBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/IQueryBus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/IQueryHandlerBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/QueryBus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/RentcarProj.BuildingBlocks.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentcarProj.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/RentcarProj.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7bea054075d0410288d8b25d3d4b063b15e70/bd/a77f0397/ICommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RentcarProj.Core/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RentcarProj.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -120,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644065609748</updated>
       <workItem from="1644065617278" duration="4269000" />
+      <workItem from="1649159273986" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="Создан проект">
       <created>1644065662558</created>
@@ -170,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649071328470</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HOTFIX: Изменен модификатор доступа ответа с исключением">
+      <created>1649072550099</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649072550099</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +239,7 @@
     <MESSAGE value="Создан шаблонный репозиторий" />
     <MESSAGE value="Запрос страницы теперь не отслеживается" />
     <MESSAGE value="Удален неиспользуемый контроллер и класс. Добавлена обработка ошибок в одной форме." />
-    <option name="LAST_COMMIT_MESSAGE" value="Удален неиспользуемый контроллер и класс. Добавлена обработка ошибок в одной форме." />
+    <MESSAGE value="HOTFIX: Изменен модификатор доступа ответа с исключением" />
+    <option name="LAST_COMMIT_MESSAGE" value="HOTFIX: Изменен модификатор доступа ответа с исключением" />
   </component>
 </project>
