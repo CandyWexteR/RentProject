@@ -1,19 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentcarProj.WebApi", "RentcarProj.WebApi\RentcarProj.WebApi.csproj", "{26091DD5-A8B0-4A2E-80AD-991DF423DF8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.WebApi", "RentcarProj.WebApi\RentcarProj.WebApi.csproj", "{26091DD5-A8B0-4A2E-80AD-991DF423DF8C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentcarProj.Core", "RentcarProj.Core\RentcarProj.Core.csproj", "{0846C1B4-F671-4A54-BDE1-6F3196FCB287}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.Core", "RentcarProj.Core\RentcarProj.Core.csproj", "{0846C1B4-F671-4A54-BDE1-6F3196FCB287}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentcarProj.Application", "RentcarProj.Application\RentcarProj.Application.csproj", "{045986CA-8BCD-4F2F-8304-18275F4900E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.Application", "RentcarProj.Application\RentcarProj.Application.csproj", "{045986CA-8BCD-4F2F-8304-18275F4900E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentcarProj.Tests", "RentcarProj.Tests\RentcarProj.Tests.csproj", "{A6C1D6A9-D45D-40AA-A918-3C3FCF4E141F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.Tests", "RentcarProj.Tests\RentcarProj.Tests.csproj", "{A6C1D6A9-D45D-40AA-A918-3C3FCF4E141F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentcarProj.DataAccess", "RentcarProj.DataAccess\RentcarProj.DataAccess.csproj", "{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.DataAccess", "RentcarProj.DataAccess\RentcarProj.DataAccess.csproj", "{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.BuildingBlocks", "RentcarProj.BuildingBlocks\RentcarProj.BuildingBlocks.csproj", "{A8A26D54-6D34-417C-A88D-0796E19A8DE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.BuildingBlocks", "RentcarProj.BuildingBlocks\RentcarProj.BuildingBlocks.csproj", "{C8165955-810A-48A7-B313-871B5E18A834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,15 +38,9 @@ Global
 		{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D007F4-9BE1-459D-B03E-4B6C44B74ADB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8A26D54-6D34-417C-A88D-0796E19A8DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8A26D54-6D34-417C-A88D-0796E19A8DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8A26D54-6D34-417C-A88D-0796E19A8DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8A26D54-6D34-417C-A88D-0796E19A8DE2}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8A484348-2607-432A-80C5-71EE6798F135}
+		{C8165955-810A-48A7-B313-871B5E18A834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8165955-810A-48A7-B313-871B5E18A834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8165955-810A-48A7-B313-871B5E18A834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8165955-810A-48A7-B313-871B5E18A834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
