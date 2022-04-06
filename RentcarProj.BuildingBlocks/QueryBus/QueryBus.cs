@@ -13,9 +13,7 @@ public class QueryBus : IQueryBus
     }
 
     /// <inheritdoc/>
-    public async Task<TResponse> Send<TRequest, TResponse>(TRequest request)
-        where TRequest : IQueryBase<TResponse>
-        where TResponse : class
+    public async Task<TResponse> Send<TResponse>(IQueryBase<TResponse> request) where TResponse : class
     {
         return await _mediator.Send(request);
     }
