@@ -10,9 +10,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/IQueryBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/IQueryBus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/QueryBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.BuildingBlocks/QueryBus/QueryBus.cs" afterDir="false" />
+    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Создан проект">
+      <change beforePath="$PROJECT_DIR$/RentcarProj.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +24,6 @@
         <entry key="$PROJECT_DIR$" value="feature/Entities" />
       </map>
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/RentcarProj.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7bea054075d0410288d8b25d3d4b063b15e70/bd/a77f0397/ICommand.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RentcarProj.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RentcarProj.Core/Class1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

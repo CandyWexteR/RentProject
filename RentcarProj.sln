@@ -12,6 +12,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.DataAccess", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentcarProj.BuildingBlocks", "RentcarProj.BuildingBlocks\RentcarProj.BuildingBlocks.csproj", "{C8165955-810A-48A7-B313-871B5E18A834}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineShop", "OnlineShop", "{BE1F99BB-9A8E-4129-8FF5-326BCE9B151C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.WebApi", "OnlineShop\OnlineShop.WebApi\OnlineShop.WebApi.csproj", "{F13EB2CD-AE1C-456F-9381-9EA74ACD8A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.DataAccess", "OnlineShop\OnlineShop.DataAccess\OnlineShop.DataAccess.csproj", "{137C8744-1806-4696-BAD4-C1B7EC9C3FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Core", "OnlineShop\OnlineShop.Core\OnlineShop.Core.csproj", "{8727FC76-0D66-4EF9-8C73-2958986593F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Application", "OnlineShop\OnlineShop.Application\OnlineShop.Application.csproj", "{34839CC6-3F99-47D7-90A0-80E62CEE1770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +52,27 @@ Global
 		{C8165955-810A-48A7-B313-871B5E18A834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8165955-810A-48A7-B313-871B5E18A834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8165955-810A-48A7-B313-871B5E18A834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13EB2CD-AE1C-456F-9381-9EA74ACD8A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13EB2CD-AE1C-456F-9381-9EA74ACD8A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13EB2CD-AE1C-456F-9381-9EA74ACD8A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13EB2CD-AE1C-456F-9381-9EA74ACD8A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137C8744-1806-4696-BAD4-C1B7EC9C3FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137C8744-1806-4696-BAD4-C1B7EC9C3FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137C8744-1806-4696-BAD4-C1B7EC9C3FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137C8744-1806-4696-BAD4-C1B7EC9C3FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8727FC76-0D66-4EF9-8C73-2958986593F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8727FC76-0D66-4EF9-8C73-2958986593F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8727FC76-0D66-4EF9-8C73-2958986593F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8727FC76-0D66-4EF9-8C73-2958986593F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34839CC6-3F99-47D7-90A0-80E62CEE1770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34839CC6-3F99-47D7-90A0-80E62CEE1770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34839CC6-3F99-47D7-90A0-80E62CEE1770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34839CC6-3F99-47D7-90A0-80E62CEE1770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F13EB2CD-AE1C-456F-9381-9EA74ACD8A04} = {BE1F99BB-9A8E-4129-8FF5-326BCE9B151C}
+		{137C8744-1806-4696-BAD4-C1B7EC9C3FB8} = {BE1F99BB-9A8E-4129-8FF5-326BCE9B151C}
+		{8727FC76-0D66-4EF9-8C73-2958986593F5} = {BE1F99BB-9A8E-4129-8FF5-326BCE9B151C}
+		{34839CC6-3F99-47D7-90A0-80E62CEE1770} = {BE1F99BB-9A8E-4129-8FF5-326BCE9B151C}
 	EndGlobalSection
 EndGlobal
