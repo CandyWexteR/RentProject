@@ -11,7 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Создан проект">
-      <change beforePath="$PROJECT_DIR$/RentcarProj.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/BaseEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Events/ItemDiscontinued.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Events/ItemPutUpForSale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Events/ItemSold.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Events/ItemStateEventBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentcarProj.Core/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.Core/Class1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,10 @@
         <entry key="$PROJECT_DIR$" value="feature/Entities" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/RentcarProj.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RentcarProj.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,16 +50,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.RentcarProj">
     <configuration name="OnlineShop.WebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OnlineShop/OnlineShop.WebApi/OnlineShop.WebApi.csproj" />
