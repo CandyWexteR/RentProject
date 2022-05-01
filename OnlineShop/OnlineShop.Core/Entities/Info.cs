@@ -11,7 +11,7 @@ public class Info
         _fields = fields;
     }
 
-    public List<Field> Fields
+    public IReadOnlyList<Field> Fields
     {
         get => _fields;
         protected set

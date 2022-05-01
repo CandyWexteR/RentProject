@@ -2,7 +2,6 @@
 
 namespace OnlineShop.Core.Entities;
 
-//TODO: Инкапсуляция
 public class Item
 {
     protected Item(Guid id, ItemCategories category, Info info)
@@ -12,9 +11,9 @@ public class Item
         Info = info;
     }
 
-    public Guid Id { get; set; }
-    public ItemCategories Category { get; set; }
-    public Info Info { get; set; }
+    public Guid Id { get; protected set; }
+    public ItemCategories Category { get; protected set; }
+    public Info Info { get; protected set; }
 
     public static Item Create(Guid id, ItemCategories category, InfoConfiguration infoConfiguration, Dictionary<string,string> fieldValues)
     {
