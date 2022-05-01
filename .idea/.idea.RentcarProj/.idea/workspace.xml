@@ -12,14 +12,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Configurations/FieldConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Configurations/InfoConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Entities/Field.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Entities/Info.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Entities/ItemBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Entities/ItemCategories.cs" afterDir="false" />
+    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Entities/Info.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Core/Entities/Info.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +42,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.RentcarProj">
     <configuration name="OnlineShop.WebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OnlineShop/OnlineShop.WebApi/OnlineShop.WebApi.csproj" />
@@ -159,6 +150,7 @@
       <updated>1644065609748</updated>
       <workItem from="1644065617278" duration="4269000" />
       <workItem from="1649159273986" duration="3112000" />
+      <workItem from="1651376385177" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="Создан проект">
       <created>1644065662558</created>
@@ -230,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651303435977</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавлены сущности">
+      <created>1651310387792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651310387792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +279,7 @@
     <MESSAGE value="HOTFIX: Изменен модификатор доступа ответа с исключением" />
     <MESSAGE value="Добавлены проекты для OnlineShop" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Добавлены сущности" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены сущности" />
   </component>
 </project>
