@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using OnlineShop.Application.JsonConverters;
 using OnlineShop.WebApi.ErrorHandling;
 
 namespace OnlineShop.WebApi;
@@ -19,6 +20,10 @@ public class Startup
         services.AddControllers(f =>
         {
             f.Filters.Add<CustomErrorFilter>();
+        }).AddNewtonsoftJson(f =>
+        {
+            //TODO: Для Input-моделей и View-моделей добавлять наш конвертер
+            //f.SerializerSettings.Converters.Add(new InheritanceConverter());
         });
     }
 
