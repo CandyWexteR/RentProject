@@ -5,13 +5,15 @@
     <projectFile profileName="IIS Express">RentcarProj/RentcarProj.csproj</projectFile>
     <projectFile profileName="WebApplication1">WebApplication1/WebApplication1.csproj</projectFile>
     <projectFile profileName="IIS Express">WebApplication1/WebApplication1.csproj</projectFile>
+    <projectFile profileName="OnlineShop.WebApi">OnlineShop/OnlineShop.WebApi/OnlineShop.WebApi.csproj</projectFile>
+    <projectFile profileName="IIS Express">OnlineShop/OnlineShop.WebApi/OnlineShop.WebApi.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Создан проект">
-      <change beforePath="$PROJECT_DIR$/RentcarProj.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.sln" afterDir="false" />
+    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/Entities" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/shoot/RiderProjects/RentProject/OnlineShop/OnlineShop.Core/Entities/Info.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,16 +44,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.RentcarProj">
     <configuration name="OnlineShop.WebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OnlineShop/OnlineShop.WebApi/OnlineShop.WebApi.csproj" />
@@ -151,6 +152,7 @@
       <updated>1644065609748</updated>
       <workItem from="1644065617278" duration="4269000" />
       <workItem from="1649159273986" duration="3112000" />
+      <workItem from="1651376385177" duration="2729000" />
     </task>
     <task id="LOCAL-00001" summary="Создан проект">
       <created>1644065662558</created>
@@ -208,7 +210,42 @@
       <option name="project" value="LOCAL" />
       <updated>1649072550099</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавлены проекты для OnlineShop">
+      <created>1651303351170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651303351170</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1651303435977</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651303435977</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавлены сущности">
+      <created>1651310387792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651310387792</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Дополнены сущности">
+      <created>1651377713317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651377713317</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Добавлен конвертер типов.">
+      <created>1651378583214</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651378583214</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +293,11 @@
     <MESSAGE value="Запрос страницы теперь не отслеживается" />
     <MESSAGE value="Удален неиспользуемый контроллер и класс. Добавлена обработка ошибок в одной форме." />
     <MESSAGE value="HOTFIX: Изменен модификатор доступа ответа с исключением" />
-    <option name="LAST_COMMIT_MESSAGE" value="HOTFIX: Изменен модификатор доступа ответа с исключением" />
+    <MESSAGE value="Добавлены проекты для OnlineShop" />
+    <MESSAGE value="1" />
+    <MESSAGE value="Добавлены сущности" />
+    <MESSAGE value="Дополнены сущности" />
+    <MESSAGE value="Добавлен конвертер типов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен конвертер типов." />
   </component>
 </project>
