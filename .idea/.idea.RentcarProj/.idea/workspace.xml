@@ -12,13 +12,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="Дополнены сущности">
-      <change afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Application/JsonConverters/InheritanceConverter.cs" afterDir="false" />
+    <list default="true" id="da148fbe-d091-4525-9bb4-e0db11802202" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentcarProj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop/OnlineShop.Application/OnlineShop.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.Application/OnlineShop.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop/OnlineShop.WebApi/OnlineShop.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.WebApi/OnlineShop.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop/OnlineShop.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop/OnlineShop.WebApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentcarProj.WebApi/RentcarProj.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RentcarProj.WebApi/RentcarProj.WebApi.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +152,7 @@
       <updated>1644065609748</updated>
       <workItem from="1644065617278" duration="4269000" />
       <workItem from="1649159273986" duration="3112000" />
-      <workItem from="1651376385177" duration="1822000" />
+      <workItem from="1651376385177" duration="2729000" />
     </task>
     <task id="LOCAL-00001" summary="Создан проект">
       <created>1644065662558</created>
@@ -243,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651377713317</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Добавлен конвертер типов.">
+      <created>1651378583214</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651378583214</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +297,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="Добавлены сущности" />
     <MESSAGE value="Дополнены сущности" />
-    <option name="LAST_COMMIT_MESSAGE" value="Дополнены сущности" />
+    <MESSAGE value="Добавлен конвертер типов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен конвертер типов." />
   </component>
 </project>

@@ -1,8 +1,12 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.OpenApi.Models;
+using Microsoft.VisualBasic;
 using OnlineShop.Application.JsonConverters;
+using OnlineShop.Core.Entities;
 using OnlineShop.WebApi.ErrorHandling;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace OnlineShop.WebApi;
 
@@ -17,13 +21,18 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddControllers(f =>
+        services.AddSwaggerGen(f =>
         {
-            f.Filters.Add<CustomErrorFilter>();
-        }).AddNewtonsoftJson(f =>
+            f.UseAllOfForInheritance();
+            f.UseOneOfForPolymorphism();
+            
+            f.SchemaFilter<SchemaFilter>();
+        });
+
+        services.AddControllers(f => { f.Filters.Add<CustomErrorFilter>(); }).AddNewtonsoftJson(f =>
         {
-            //TODO: Для Input-моделей и View-моделей добавлять наш конвертер
-            //f.SerializerSettings.Converters.Add(new InheritanceConverter());
+            //TODO: Для Input-моделей и View-моделей добавлять наш конвертер. Ниже просто пример.
+            //f.SerializerSettings.Converters.Add(new InheritanceConverter(typeof(Info), Constants.DISCRIMINATOR));
         });
     }
 
@@ -46,6 +55,28 @@ public class Startup
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints => { endpoints.MapRazorPages(); });
+    }
+}
+
+public class SchemaFilter:ISchemaFilter
+{
+    public void Apply(OpenApiSchema schema, SchemaFilterContext context)
+    {
+        if(!context.Type.Assembly.GetTypes().Where(f=>f.IsSubclassOf(context.Type)).Any())
+            return;
+
+        schema.Properties.Add(Constants.DISCRIMINATOR, new OpenApiSchema()
+        {
+            Type = "string",
+            Nullable = true
+        });
+
+        schema.Discriminator = new OpenApiDiscriminator()
+        {
+            PropertyName = Constants.DISCRIMINATOR
+        };
+
+        schema.Required.Add(Constants.DISCRIMINATOR);
     }
 }
 
